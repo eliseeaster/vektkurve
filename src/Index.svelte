@@ -6,10 +6,9 @@
 
 <Chart />
 
-<!-- 
-// {#if $openEHR}
-//   Welcome to OpenEHR!
-//   <Compositions />
-// {:else}
-//   Loading client...
-// {/if} -->
+<!-- {#if $openEHR}
+  // Welcome to OpenEHR! // <Compositions />
+  //
+{:else}
+  // Loading client... //
+{/if} -->

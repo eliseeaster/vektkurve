@@ -36,7 +36,7 @@
     <button on:click={postComposition}> Post Composition </button>
   </div>
   <div>
-    {#await $openEHR.query(weight_aql, queryParams)}
+    {#await $openEHR.query(aql, queryParams)}
       Loading...
     {:then result}
       <table>
